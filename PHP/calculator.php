@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // Вывод результата
         if (isset($result)) {
-            echo '<p class="result">Результат: ' . $result . '</p>';
+            echo '<p class="result">С вас: ' . $result . '$ на карту сбер</p>';
         }
     }
 }
@@ -23,16 +23,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <div class="calculator-field">
     <form id="calculatorForm" method="post" action="">
-        <input type="text" name="num1" placeholder="Введите число 1" required>
+        <input type="text" name="num1" placeholder="Пиши сюда" required>
         <select name="operator">
             <option value="+">+</option>
             <option value="-">-</option>
             <option value="*">*</option>
             <option value="/">/</option>
         </select>
-        <input type="text" name="num2" placeholder="Введите число 2" required>
+        <input type="text" name="num2" placeholder="Потом сюда" required>
         <br>
-        <input type="submit" value="Посчитать">
+        <input type="submit" value="public void DoSomething()">
     </form>
 </div>
 
